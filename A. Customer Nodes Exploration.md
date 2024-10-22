@@ -195,3 +195,7 @@ LEFT JOIN avg_number an
 - Combine all the information about average and percentils in one table.
 
 #### Result:
+![Zrzut ekranu 2024-10-16 200830](https://github.com/user-attachments/assets/a8deb22f-629b-40c0-9af7-7c63d659a5ba)
+
+
+
