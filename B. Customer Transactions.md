@@ -14,6 +14,7 @@ GROUP BY txn_type;
 ````
 
 #### Result:
+![Zrzut ekranu 2024-10-22 194855](https://github.com/user-attachments/assets/db45b7fa-db90-43c3-9204-c315b2a01157)
 
 Most of the transactions were deposits. The total number and value of purchases and withdrawals are similar.
 
@@ -41,6 +42,7 @@ FROM customer_total_deposites;
 - Using a CTE with the total deposit information for each customer, calculate the average number of deposits and the average total deposit amount.
 
 #### Result:
+![Zrzut ekranu 2024-10-22 194924](https://github.com/user-attachments/assets/81c3351b-9468-4d90-964d-ac8dae1b09f3)
 
 On average, each customer has 5 deposits totaling a value of 2 718.
 
@@ -79,10 +81,12 @@ GROUP BY cd.txn_month;
 ````
 #### Steps:
 - Create a CTE (table ```customer_month_deposits```) with a list of ```customer_id``` by transaction month where they had at least one deposit during that period.
-Create another CTE (table ```customer_month_purchases_withdrawal```) with a list of ```customer_id``` by transaction month where they had at least one purchase or withdrawal.
-Combine the two CTEs using a ```LEFT JOIN``` to ensure that all customers on the list had at least one deposit. Then filter (using ```WHERE```) the data to include only those who also had a purchase or withdrawal. Finally, count the number of customers and group the results by transaction month.
+- Create another CTE (table ```customer_month_purchases_withdrawal```) with a list of ```customer_id``` by transaction month where they had at least one purchase or withdrawal.
+- Combine the two CTEs using a ```LEFT JOIN``` to ensure that all customers on the list had at least one deposit. Then filter (using ```WHERE```) the data to include only those who also had a purchase or withdrawal. Finally, count the number of customers and group the results by transaction month.
 
 #### Result:
+![Zrzut ekranu 2024-10-22 195046](https://github.com/user-attachments/assets/77013286-5db5-47c2-b118-ea1f651709a2)
+
 
 ### 4. What is the closing balance for each customer at the end of the month?
 
@@ -112,6 +116,8 @@ FROM customer_month_balances;
 -Based on this table, calculate the closing balance using the ```SUM()``` function with the ```OVER()``` clause and the last day of the month for the calculation.
 
 #### Result:
+![Zrzut ekranu 2024-10-22 195140](https://github.com/user-attachments/assets/b638c17f-7e1d-4c32-bc9e-ee74ee5f62d0)
+
 
 ### 5. What is the percentage of customers who increase their closing balance by more than 5%?
 
@@ -164,3 +170,4 @@ FROM customer_balances_increase
 #### Steps:
 
 #### Result:
+![Zrzut ekranu 2024-10-22 195256](https://github.com/user-attachments/assets/49653b7f-3d9a-43bc-b6fe-869d709d09b4)
