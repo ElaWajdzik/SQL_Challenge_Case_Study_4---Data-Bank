@@ -85,9 +85,9 @@ customer_id | txn_date | txn_type | txn_amount
 
 ## Case Study Questions
 
-- A. Customer Nodes Exploration
-- B. Customer Transactions
-- C. Data Allocation Challenge
+- [A. Customer Nodes Exploration](https://github.com/ElaWajdzik/SQL_Challenge_Case_Study_4---Data-Bank/blob/main/A.%20Customer%20Nodes%20Exploration.md)
+- [B. Customer Transactions](https://github.com/ElaWajdzik/SQL_Challenge_Case_Study_4---Data-Bank/blob/main/B.%20Customer%20Transactions.md)
+- [C. Data Allocation Challenge](https://github.com/ElaWajdzik/SQL_Challenge_Case_Study_4---Data-Bank/blob/main/C.%20Data%20Allocation%20Challenge.md)
 - D. Extra Challenge
 
 <br/>
