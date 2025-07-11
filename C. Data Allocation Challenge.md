@@ -16,3 +16,12 @@ For this multi-part challenge question - you have been requested to generate the
 - minimum, average and maximum values of the running balance for each customer
 
 Using all of the data available - how much data would have been required for each option on a monthly basis?
+
+
+<br></br>
+***
+
+Thank you for your attention! 🫶️
+
+
+[Return to README ➔](https://github.com/ElaWajdzik/SQL_Challenge_Case_Study_4---Data-Bank/blob/main/README.md)
