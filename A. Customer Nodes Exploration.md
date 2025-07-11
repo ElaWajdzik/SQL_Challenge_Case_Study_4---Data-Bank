@@ -197,5 +197,12 @@ LEFT JOIN avg_number an
 #### Result:
 ![Zrzut ekranu 2024-10-16 200830](https://github.com/user-attachments/assets/a8deb22f-629b-40c0-9af7-7c63d659a5ba)
 
+<br></br>
+***
 
+Thank you for your attention! 🫶️
+
+[Next Section: *Customer Transactions* ➔](https://github.com/ElaWajdzik/SQL_Challenge_Case_Study_4---Data-Bank/blob/main/B.%20Customer%20Transactions.md)
+
+[Return to README ➔](https://github.com/ElaWajdzik/SQL_Challenge_Case_Study_4---Data-Bank/blob/main/README.md)
 
