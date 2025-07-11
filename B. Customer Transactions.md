@@ -171,3 +171,12 @@ FROM customer_balances_increase
 
 #### Result:
 ![Zrzut ekranu 2024-10-22 195256](https://github.com/user-attachments/assets/49653b7f-3d9a-43bc-b6fe-869d709d09b4)
+
+<br></br>
+***
+
+Thank you for your attention! 🫶️
+
+[Next Section: *Data Allocation Challenge* ➔](https://github.com/ElaWajdzik/SQL_Challenge_Case_Study_4---Data-Bank/blob/main/C.%20Data%20Allocation%20Challenge.md)
+
+[Return to README ➔](https://github.com/ElaWajdzik/SQL_Challenge_Case_Study_4---Data-Bank/blob/main/README.md)
